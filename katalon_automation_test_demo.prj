@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>katalon_automation_test_demo</name>
+   <tag></tag>
+   <UUID>6d714e26-2740-4d65-8129-3bdd71e0bd12</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
