@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_UserIDLoggedIn</name>
+   <tag></tag>
+   <elementGuidId>3dba138c-ea4b-4e7c-9462-0cb59fa1550a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navTabButtonUserInfoDropDownId&quot;)[count(. | //span[@id = 'navTabButtonUserInfoDropDownId' and @class = 'navDropDownMenu navDropDownMenuUserInfo']) = count(//span[@id = 'navTabButtonUserInfoDropDownId' and @class = 'navDropDownMenu navDropDownMenuUserInfo'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>navTabButtonUserInfoDropDownId</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navDropDownMenu navDropDownMenuUserInfo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Amruta Bendreorg8643a878Edit ImageSign out</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navTabButtonUserInfoDropDownId&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>
