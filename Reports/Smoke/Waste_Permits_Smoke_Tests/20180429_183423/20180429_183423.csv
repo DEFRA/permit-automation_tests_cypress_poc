@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Waste_Permits_Smoke_Tests,Chrome 65.0.3325.181,,2018-04-29 18:34:24,2018-04-29 18:34:29,4.240s,ERROR
-,,,,,,
-Test Cases/Smoke/WE918_Create_New_Application,Chrome 65.0.3325.181,As a user to verify that I am able to create a waste permit application,2018-04-29 18:34:25,2018-04-29 18:34:28,3.264s,ERROR
-openBrowser,Chrome 65.0.3325.181,,2018-04-29 18:34:25,2018-04-29 18:34:28,2.921s,PASSED
-navigateToUrl,Chrome 65.0.3325.181,,2018-04-29 18:34:28,2018-04-29 18:34:28,0.027s,PASSED
