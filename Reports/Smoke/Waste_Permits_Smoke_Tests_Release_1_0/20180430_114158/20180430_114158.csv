@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Waste_Permits_Smoke_Tests_Release_1_0,Firefox 59.0,,2018-04-30 11:42:02,2018-04-30 11:42:29,27.259s,PASSED
+,,,,,,
+Test Cases/Smoke/WE918_Create_New_Application,Firefox 59.0,As a user to verify that I am able to create a waste permit application,2018-04-30 11:42:02,2018-04-30 11:42:18,16.049s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 59.0,,2018-04-30 11:42:02,2018-04-30 11:42:08,5.338s,PASSED
+openBrowser,Firefox 59.0,,2018-04-30 11:42:08,2018-04-30 11:42:11,3.052s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 11:42:11,2018-04-30 11:42:13,1.618s,PASSED
+click,Firefox 59.0,,2018-04-30 11:42:13,2018-04-30 11:42:13,0.358s,PASSED
+click,Firefox 59.0,,2018-04-30 11:42:13,2018-04-30 11:42:18,5.282s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-30 11:42:18,2018-04-30 11:42:18,0.227s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-04-30 11:42:18,2018-04-30 11:42:18,0.008s,PASSED
+,,,,,,
+Test Cases/Smoke/WE900_Login_CRM,Firefox 59.0,,2018-04-30 11:42:18,2018-04-30 11:42:29,10.607s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 59.0,,2018-04-30 11:42:18,2018-04-30 11:42:21,2.846s,PASSED
+navigateToUrl,Firefox 59.0,,2018-04-30 11:42:21,2018-04-30 11:42:23,1.573s,PASSED
+waitForElementVisible,Firefox 59.0,,2018-04-30 11:42:23,2018-04-30 11:42:23,0.104s,PASSED
+setText,Firefox 59.0,,2018-04-30 11:42:23,2018-04-30 11:42:23,0.215s,PASSED
+click,Firefox 59.0,,2018-04-30 11:42:23,2018-04-30 11:42:24,0.294s,PASSED
+sendKeys,Firefox 59.0,,2018-04-30 11:42:24,2018-04-30 11:42:24,0.621s,PASSED
+setText,Firefox 59.0,,2018-04-30 11:42:24,2018-04-30 11:42:24,0.094s,PASSED
+click,Firefox 59.0,,2018-04-30 11:42:24,2018-04-30 11:42:25,0.588s,PASSED
+click,Firefox 59.0,,2018-04-30 11:42:25,2018-04-30 11:42:29,3.876s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 59.0,,2018-04-30 11:42:29,2018-04-30 11:42:29,0.232s,PASSED

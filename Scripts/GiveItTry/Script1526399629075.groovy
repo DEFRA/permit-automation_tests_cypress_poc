@@ -46,3 +46,129 @@ WebUI.click(findTestObject('GiveItTry/Page_JM Control Centre/span_Cancel'))
 
 WebUI.closeBrowser()
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://kirona-def-2.kirona.com/jmtest/jclient/jclient.html')
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Configure App'))
+
+WebUI.setText(findTestObject('egg/Page_JClient/input_gwt-TextBox GKH2EKQBOHC'), 'jon.hatfield')
+
+WebUI.setText(findTestObject('egg/Page_JClient/input_gwt-PasswordTextBox GKH2'), 'Fr@nc1sJ0n')
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Sign In'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_EMI Inspection - Paired'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Checking for Job updates'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_2 Days'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_STARTED on Tue at 1045'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job Summary'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_No SLA'))
+
+WebUI.doubleClick(findTestObject('egg/Page_JClient/div_35576'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P_2'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_TRAVELLING'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P_3'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_TRAVELLING'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_TRAVELLING'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Arrived'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P_4'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Started'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI Inspection - P_5'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Day'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI InspectionJob'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_TRAVELLING'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI InspectionJob _1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_ARRIVED (1)'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI InspectionJob _2'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_35577'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_STARTED (1)'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Job TypeEMI InspectionJob _3'))
+
+WebUI.click(findTestObject('egg/Page_JClient/div_Edit attributes'))
+
+WebUI.click(findTestObject('egg/Page_JClient/input_radio_group_14'))
+
+WebUI.click(findTestObject('egg/Page_JClient/input_radio_group_14_1'))
+
+WebUI.click(findTestObject('egg/Page_JClient/input_radio_group_14'))
+
+WebUI.setText(findTestObject('egg/Page_JClient/input_gwt-DoubleBox GKH2EKQBOH'), '1')
+
+WebUI.closeBrowser()
+

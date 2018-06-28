@@ -12,11 +12,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'wastetest1@defradev.onmicrosoft.com'</initValue>
-      <name>Username</name>
+      <name>Username1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'W@stePermits1'</initValue>
-      <name>Password</name>
+      <name>Password1</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

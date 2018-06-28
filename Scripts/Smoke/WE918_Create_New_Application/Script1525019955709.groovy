@@ -20,13 +20,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl(findTestData('Config_File').getValue(2, 1))
 
 WebUI.click(findTestObject('FrontEnd/Page_Apply for a standard rules env/Radio_Start a new application'))
 
 WebUI.click(findTestObject('FrontEnd/Page_Apply for a standard rules env/button_Continue'))
 
+//InspectionID = WebUI.getText(findTestObject('FSM1/Control Centre/Create EMI Inspection/InspectionID/Page_JM Control Centre/InspectionID'))
+//
+//WebUI.setText(GlobalVariable.Password, InspectionID)
+//
+//InspectionRef = WebUI.modifyObjectProperty(findTestObject('FSM1/Select Inspection/Page_JClient/InspectionID'), 'text', 'equals', 
+//    GlobalVariable.Password, true)
 WebUI.closeBrowser()
 

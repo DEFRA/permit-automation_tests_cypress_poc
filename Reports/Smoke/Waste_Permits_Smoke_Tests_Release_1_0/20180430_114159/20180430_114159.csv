@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Waste_Permits_Smoke_Tests_Release_1_0,Chrome 65.0.3325.181,,2018-04-30 11:42:32,2018-04-30 11:43:02,30.223s,PASSED
+,,,,,,
+Test Cases/Smoke/WE918_Create_New_Application,Chrome 65.0.3325.181,As a user to verify that I am able to create a waste permit application,2018-04-30 11:42:32,2018-04-30 11:42:55,22.652s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 65.0.3325.181,,2018-04-30 11:42:32,2018-04-30 11:42:35,3.062s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2018-04-30 11:42:35,2018-04-30 11:42:38,2.707s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 11:42:38,2018-04-30 11:42:39,1.206s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 11:42:39,2018-04-30 11:42:39,0.124s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 11:42:39,2018-04-30 11:42:54,14.670s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2018-04-30 11:42:54,2018-04-30 11:42:55,0.673s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 65.0.3325.181,,2018-04-30 11:42:55,2018-04-30 11:42:55,0.021s,PASSED
+,,,,,,
+Test Cases/Smoke/WE900_Login_CRM,Chrome 65.0.3325.181,,2018-04-30 11:42:55,2018-04-30 11:43:02,7.093s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 65.0.3325.181,,2018-04-30 11:42:55,2018-04-30 11:42:57,1.993s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2018-04-30 11:42:57,2018-04-30 11:42:59,1.685s,PASSED
+waitForElementVisible,Chrome 65.0.3325.181,,2018-04-30 11:42:59,2018-04-30 11:42:59,0.090s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 11:42:59,2018-04-30 11:42:59,0.250s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 11:42:59,2018-04-30 11:42:59,0.100s,PASSED
+sendKeys,Chrome 65.0.3325.181,,2018-04-30 11:42:59,2018-04-30 11:43:00,0.616s,PASSED
+setText,Chrome 65.0.3325.181,,2018-04-30 11:43:00,2018-04-30 11:43:00,0.121s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 11:43:00,2018-04-30 11:43:00,0.505s,PASSED
+click,Chrome 65.0.3325.181,,2018-04-30 11:43:00,2018-04-30 11:43:01,0.910s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 65.0.3325.181,,2018-04-30 11:43:01,2018-04-30 11:43:02,0.694s,PASSED

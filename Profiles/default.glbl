@@ -19,4 +19,9 @@
       <initValue>'https://ag-ea-lp-qa-master.crm4.dynamics.com'</initValue>
       <name>CRMUrl</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>temp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

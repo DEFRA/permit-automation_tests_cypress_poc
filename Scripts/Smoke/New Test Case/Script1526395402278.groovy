@@ -19,11 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('URL')
+WebUI.navigateToUrl('https://kirona-def-6.kirona.com/jmprep/login?postLoginUrl=%2Fjmprep%2Fui&postLoginQuery=%23%21fwc#!loginView')
 
-WebUI.setText(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-3'), 'SOMETHING')
+//WebUI.setText(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-3'), 'jon.hatfield')
 
-WebUI.setText(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-5'), 'SOMETHING')
+
+//text = WebUI.getAttribute(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-3'), 'value')
+
+
+//GlobalVariable.temp = text
+println(GlobalVariable.temp)
+WebUI.setText(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-3'), GlobalVariable.temp)
+
+
+
+WebUI.setText(findTestObject('GiveItTry/Page_Job Manager Login/input_gwt-uid-5'), 'Fr@nc1sJ0n')
 
 WebUI.waitForElementClickable(findTestObject('GiveItTry/Page_Job Manager Login/div_Login'), 0)
 

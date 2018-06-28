@@ -24,13 +24,13 @@ WebUI.navigateToUrl(GlobalVariable.CRMUrl)
 
 WebUI.waitForElementVisible(findTestObject('BackEndCRM/input_loginfmt'), 0)
 
-WebUI.setText(findTestObject('BackEndCRM/input_loginfmt'), GlobalVariable.Username)
+WebUI.setText(findTestObject('BackEndCRM/input_loginfmt'), GlobalVariable.Username1)
 
 WebUI.click(findTestObject('BackEndCRM/input_idSIButton9'))
 
 WebUI.sendKeys(findTestObject('BackEndCRM/input_passwd'), '')
 
-WebUI.setText(findTestObject('BackEndCRM/input_passwd'), GlobalVariable.Password)
+WebUI.setText(findTestObject('BackEndCRM/input_passwd'), GlobalVariable.Password1)
 
 WebUI.click(findTestObject('BackEndCRM/input_idSIButton9'))
 
