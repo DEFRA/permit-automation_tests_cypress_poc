@@ -7,8 +7,9 @@
 <li>Install packages: <i>npm install</i></li>
 </ol>
 <li><b>Integration Tests use :-</b></li>
-<li>On terminal: <i>npm cypress run</i></li>
-<li>Test for specific browser: <i>npm cypress run --browser chrome --no-exit</i></li>
+<li>On terminal: <i>npx cypress run</i></li>
+<li>Test for specific browser: <i>npx cypress run --browser chrome --no-exit</i></li>
+<li>Test sending config parameters : <i>npx cypress run --env frontendUrl=https://localhost:3000/ --config video=true</i></li>
 <li>run tests on terminal: <i>npm run test:dev</i></li> 
 <li><b>API Tests use :-</b></li> 
 <li> `npm start` - runs the local API server </li>

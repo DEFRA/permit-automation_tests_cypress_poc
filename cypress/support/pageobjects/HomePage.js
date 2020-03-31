@@ -2,7 +2,7 @@
 
 import HomePageElements from '../elements/HomePageElements'
 const homePageElements = new HomePageElements
-const url = Cypress.config("frontendUrl")
+const url = Cypress.env("frontendUrl")
 
 class HomePage {
     accessSite() {
