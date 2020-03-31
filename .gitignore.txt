@@ -1,8 +1,0 @@
-/bin
-/Libs
-/Profiles
-/Reports
-/Data Files
-.settings
-.classpath
-/.svn

@@ -1,0 +1,35 @@
+{
+  "name": "cypress-mypermits-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit",
+    "test:dev": "cypress-tags run -e TAGS=@dev",
+    "test:devchrome": "cypress-tags run -e TAGS=@dev --browser chrome",
+    "test:mochawesome": "npm test && npm run merge:reports && npm run generate:report",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:record": "cypress run --record",
+    "start": "json-server db.json",
+    "test": "run-p --race start cy:run -e TAGS=@api",
+    "test:ci": "run-p --race start cy:run:record"
+  },
+  "author": "Department for Environment, Food & Rural Affairs",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "cypress": "^4.2.0",
+    "cypress-cucumber-preprocessor": "^2.2.0",
+    "npm-run-all": "4.1.5"
+  },
+  "dependencies": {
+    "mocha": "5.2.0",
+    "mochawesome": "4.1.0",
+    "mochawesome-merge": "4.0.3",
+    "mochawesome-report-generator": "4.1.0",
+    "json-server": "0.15.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}

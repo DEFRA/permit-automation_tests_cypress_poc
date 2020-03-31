@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>As a user to verify that I am able to create a waste permit application</description>
-   <name>WE918_Create_New_Application</name>
-   <tag>Smoke</tag>
-   <comment></comment>
-   <testCaseGuid>959f95b4-3060-4487-9e97-fda35dda106f</testCaseGuid>
-</TestCaseEntity>

@@ -1,5 +1,3 @@
-/bin/
-/Libs/
-/.settings/
-/.classpath
-.svn/
+/node_modules/
+/cypress/results/
+/cypress/screenshots
