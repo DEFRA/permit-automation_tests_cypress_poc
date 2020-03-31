@@ -3,6 +3,7 @@
     "viewportHeight": 768,
     "defaultCommandTimeout": 10000,
     "baseUrl": "http://localhost:3000",
+    "frontendUrl":"http://localhost:3000",
     "screenshotsFolder": "screenshots",
     "reporter": "mochawesome",
   "reporterOptions": {
